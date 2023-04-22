@@ -15,6 +15,9 @@ odd_numbers = [num for num in numbers if num % 2 != 0]
 # Write even numbers to even.txt
 with open("even.txt", "w") as even_file:
     for num in even_numbers:
-        even_numbers.write(str(num) + "n")
+        even_numbers.write(str(num) + "\n")
 # Write odd number to odd.txt
+with open("odd.text", "w") as odd_file:
+    for num in odd_numbers:
+        odd_numbers.write(str(num) + "\n")
 # Display the confirmation message
