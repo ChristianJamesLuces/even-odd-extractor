@@ -8,6 +8,7 @@
 with open("numbers.txt", "r") as input_file:
     numbers = input_file.readlines()
 # Convert the numbers to integers
+numbers = [int(num) for num in numbers]
 # Extract even and odd numbers
 # Write even numbers to even.txt
 # Write odd number to odd.txt
