@@ -5,7 +5,8 @@
 
 
 # Open the input file and read the numbers
-with open("numbers.txt") as input_file:
+with open("numbers.txt", "r") as input_file:
+    numbers = input_file.readlines()
 # Convert the numbers to integers
 # Extract even and odd numbers
 # Write even numbers to even.txt
