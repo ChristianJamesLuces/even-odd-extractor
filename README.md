@@ -28,6 +28,7 @@ pip3 install pyfiglet
 5. The program will read the numbers from the 'numbers.txt' file and extract all even and odd numbers.
 6. The program will write even numbers to 'even.txt' and odd numbers to 'odd.txt' files.
 7. The program will provide a confirmation message that even and odd numbers have been written to their respective files.
+8. The program will close the file after writing.
 
 ## Contributing 
 Contributions are appreciated! If you find some bugs or errors and also if you have suggestions for improvements, feel free to submit an issue or create a pull request.
