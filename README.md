@@ -5,6 +5,7 @@ This program extracts all even and odd numbers from a text file named numbers.tx
 This program provides the following features:
 - Displays welcome message with program instructions using pyfiglet
 - Asks the user to press ENTER to run the program
+- Introduce a pause or delay
 - Reads a text file named numbers.txt that contains 20 integers
 - Extracts all even and odd numbers from the file
 - Writes even numbers to even.txt and odd numbers to odd.txt
