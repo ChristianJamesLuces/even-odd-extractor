@@ -6,10 +6,11 @@ This program provides the following features:
 - Displays welcome message with program instructions using pyfiglet
 - Asks the user to press ENTER to run the program
 - Introduce a pause or delay
-- Reads a text file named numbers.txt that contains 20 integers
+- Reads a text file named 'numbers.txt' that contains 20 integers
 - Extracts all even and odd numbers from the file
-- Writes even numbers to even.txt and odd numbers to odd.txt
+- Writes even numbers to 'even.txt' and odd numbers to odd.txt
 - Provides a confirmation message that even and odd numbers have been written to their respective files
+- Close the file after writing
 
 
 ## Installation
