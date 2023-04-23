@@ -10,7 +10,7 @@ This program provides the following features:
 - Extracts all even and odd numbers from the file
 - Writes even numbers to even.txt and odd numbers to odd.txt
 - Provides a confirmation message that even and odd numbers have been written to their respective files
-- Handles invalid input
+
 
 ## Installation
 The Decryptor program requires Python 3 and 'pyfiglet' to be installed on your computer. If you don't have Python 3 installed on your computer, you can download it from the official website: https://www.python.org/downloads. To run the program, simply download and execute the 'extract_even_odd.py' and 'numbers.txt' file. To install the 'pyfiglet' package that is required you can use this pip:
@@ -20,14 +20,13 @@ pip3 install pyfiglet
 ```
 
 ## Usage
-1. Place a text file named numbers.txt in the same directory as the 'extract_even_odd.py' file.
+1. Place a text file named 'numbers.txt' in the same directory as the 'extract_even_odd.py' file.
 2. Run the program by executing the 'extract_even_odd.py' file.
 3. The program will display a welcome message and instructions.
 4. Press the ENTER key to run the program.
 5. The program will read the numbers from the 'numbers.txt' file and extract all even and odd numbers.
 6. The program will write even numbers to 'even.txt' and odd numbers to 'odd.txt' files.
 7. The program will provide a confirmation message that even and odd numbers have been written to their respective files.
-8. If the user inputs are invalid, the program will display an error message and ask the user again.
 
 ## Contributing 
 Contributions are appreciated! If you find some bugs or errors and also if you have suggestions for improvements, feel free to submit an issue or create a pull request.
