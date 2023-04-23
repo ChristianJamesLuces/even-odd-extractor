@@ -23,12 +23,10 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 
 with open("even.txt", "w") as even_file, open("odd.txt", "w") as odd_file:
-    even_file.write("These are the even numbers in the file:" + "\n")
     # Write even numbers to even.txt
     for num in even_numbers:
         even_file.write(str(num) + "\n")
     # Write odd number to odd.txt
-    odd_file.write("These are the odd numbers in the file:" + "\n")
     for num in odd_numbers:
         odd_file.write(str(num) + "\n")
 # Display the confirmation message
