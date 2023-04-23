@@ -7,6 +7,11 @@ import pyfiglet
 import time
 # Defining variables
 intro = pyfiglet.figlet_format("WELCOME".center(39, "="), font = "digital")
+# Welcome message and its function
+print(intro)
+print("\033[44;1m" + "This program will create two text file, evem.txt and odd.txt, that respectively contain all even and odd numbers extracted from a file text named numbers.txt.\n" + "\033[0m")
+input("Press the ENTER key to run the program....\n")
+time.sleep(5)
 # Open the input file and read the numbers
 with open("numbers.txt", "r") as input_file:
     numbers = input_file.readlines()
