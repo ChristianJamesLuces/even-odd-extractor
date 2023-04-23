@@ -12,7 +12,7 @@ This program provides the following features:
 - Handles invalid input
 
 ## Installation
-The Decryptor program requires Python 3 and 'pyfiglet' to be installed on your computer. If you don't have Python 3 installed on your computer, you can download it from the official website: https://www.python.org/downloads. To run the program, simply download and execute the 'extract_even_odd.py' file. To install the 'pyfiglet' package that is required you can use this pip:
+The Decryptor program requires Python 3 and 'pyfiglet' to be installed on your computer. If you don't have Python 3 installed on your computer, you can download it from the official website: https://www.python.org/downloads. To run the program, simply download and execute the 'extract_even_odd.py' and 'numbers.txt' file. To install the 'pyfiglet' package that is required you can use this pip:
 
 ```bash
 pip3 install pyfiglet
