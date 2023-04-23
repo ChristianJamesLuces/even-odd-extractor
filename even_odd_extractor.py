@@ -5,6 +5,7 @@
 
 import pyfiglet
 import time
+
 # Defining variables
 intro = pyfiglet.figlet_format("WELCOME".center(39, "="), font = "digital")
 # Welcome message and its function
@@ -31,3 +32,6 @@ with open("even.txt", "w") as even_file, open("odd.txt", "w") as odd_file:
     for num in odd_numbers:
         odd_file.write(str(num) + "\n")
 # Display the confirmation message
+print(":" * 90) 
+print("\033[93m" + "Even and odd numbers have been writen to even.txt and odd.txt responsively. :)".center(90) + "\033[0m")
+print(":" * 90)
